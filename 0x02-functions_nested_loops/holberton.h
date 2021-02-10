@@ -67,5 +67,27 @@ int _abs(int j);
 int print_last_digit(int n);
 
 
+/**
+ * jack_bauer - print every minute of a day
+ * Return: nothing
+ */
+
+void jack_bauer(void);
+
+/**
+ * times_table - print multiplication table
+ */
+
+void times_table(void);
+
+/**
+ * add - add two integers
+ * @a: two integer arguments
+ * @b: two integer arguments
+ * Return: sum
+ */
+
+int add(int a, int b);
+
 
 #endif
