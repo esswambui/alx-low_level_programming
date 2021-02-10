@@ -40,4 +40,22 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ * print_sign - prints the  sign of a number
+ * @n: number to check
+ * Return: 1 if greater than 0, 0 if 0, -1 if less than 0
+ */
+
+int print_sign(int n);
+
+/**
+ * _abs - computes the  absolute value of an  integer
+ * @j: integer argument
+ *
+ * Return: the absolute value of the number
+ */
+
+int _abs(int j);
+
+
 #endif
